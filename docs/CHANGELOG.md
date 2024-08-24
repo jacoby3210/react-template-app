@@ -10,3 +10,7 @@
 	- support FontAwesome library.
 	- improved file structure.
 	- install dependencies: clsx, prop-types, react-aria, react-redux, @reduxjs/toolkit, react-router-dom.
+
+### Stage 03
+	- install dependencies: sass, msw.
+	- update README.md
