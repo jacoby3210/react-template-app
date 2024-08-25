@@ -9,8 +9,14 @@
 ### Stage 02
 	- support FontAwesome library.
 	- improved file structure.
-	- install dependencies: clsx, prop-types, react-aria, react-redux, @reduxjs/toolkit, react-router-dom.
+	- install dependencies: clsx, prop-types, react-aria, react-redux, 
+			@reduxjs/toolkit, react-router-dom.
 
 ### Stage 03
 	- install dependencies: sass, msw.
 	- update README.md
+
+### Stage 04
+	- setup msw workflow.
+	- update react-template-app/src/app.jsx
+	- update react-template-app/README.md

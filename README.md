@@ -26,3 +26,4 @@ Template provides a minimal setup to get React working in Vite with HMR and some
 Not required at this development stage.
 
 ## 💡 Update (or fixes) requests
+Fully ready for further use.
