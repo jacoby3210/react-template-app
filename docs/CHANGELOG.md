@@ -27,3 +27,6 @@
 		-> create temp branch
 		-> add  temp branch into dev by new commit 
 		-> auto merge release branch.
+
+### Stage 06
+	- install 'vite-plugin-advanced-console-log'. Simplifies work with index.js files
