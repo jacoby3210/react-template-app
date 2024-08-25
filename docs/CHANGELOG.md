@@ -20,3 +20,10 @@
 	- setup msw workflow.
 	- update react-template-app/src/app.jsx
 	- update react-template-app/README.md
+
+### Stage 05
+	- create dev branch.
+	- add changes by next logic: 
+		-> create temp branch
+		-> add  temp branch into dev by new commit 
+		-> auto merge release branch.
