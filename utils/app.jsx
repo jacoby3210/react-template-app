@@ -1,8 +1,9 @@
-import React 				from 'react'
-import ReactDOM 		from 'react-dom/client'
-import {Provider}		from 'react-redux';
-import {store} 			from './code/store/store.js';
-import Main 				from './gui/main.jsx'
+import React 						from 'react'
+import ReactDOM 				from 'react-dom/client'
+import {Provider}				from 'react-redux';
+import {BrowserRouter} 	from 'react-router-dom';
+import {store} 					from '/src/code/store/store.js';
+import Router 					from '/src/gui/router.jsx'
 // ========================================================================= //
 // The main React component defining the structure of the application.
 // ========================================================================= //
@@ -10,7 +11,9 @@ import Main 				from './gui/main.jsx'
 const App = receivedProps => (
 	<React.StrictMode>
 		<Provider store={store}>
-			<Main />
+			<BrowserRouter>
+				<Router />
+			</BrowserRouter>
 		</Provider>
 	</React.StrictMode>
 );
@@ -21,7 +24,7 @@ const App = receivedProps => (
 
 async function enableMocking() {
 	if (process.env.NODE_ENV === "development") {
-		const { worker } = await import("./code/development/mocks/index.js");    
+		const { worker } = await import("/src/code/development/mocks/index.js");    
 		return worker.start();  
 	}
 }

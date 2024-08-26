@@ -30,3 +30,9 @@
 
 ### Stage 06
 	- install 'vite-plugin-advanced-console-log'. Simplifies work with index.js files
+
+### Stage 07
+	- add folder ./utils - place here the files needed to build the application depending on the target platform.
+	- add vite-plugin-static-copy - use is used to build the application.
+	- moved app.js to 'utils/'.  
+	- redistribute functionality between main.jsx and app.jsx. Renaming Main.jsx to router.jsx.

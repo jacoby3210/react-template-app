@@ -1,22 +1,17 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import {Routes, Route } from 'react-router-dom';
 import ShowcasePage from './pages/showcase'
 // ========================================================================= //
-// Main Application Page.																										 //
+// Main Application Router.																										 //
 // Using router to control navigation through application pages.						 //
 // ========================================================================= //
 
-function Main() {
-
+function Router() {
 	return (
-		<>
-			<Router>
-				<Routes>
-					<Route element={<ShowcasePage />} path="/" exact />
-				</Routes>
-			</Router>
-		</>
+		<Routes>
+			<Route element={<ShowcasePage />} path="/" exact />
+		</Routes>
 	);
 }
 
-export default React.memo(Main);
+export default React.memo(Router);
