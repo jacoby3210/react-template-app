@@ -1,11 +1,11 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
-import consoleLine from 'vite-plugin-advanced-console-log'
+import consolePro from 'vite-plugin-console-pro'
 
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [
 		react(), 
-		consoleLine({exclude: ["node_modules"]}),
+		consolePro({exclude: ["node_modules"]}),
 	],
 })

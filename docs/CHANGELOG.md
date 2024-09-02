@@ -36,3 +36,7 @@
 	- add vite-plugin-static-copy - use is used to build the application.
 	- moved app.js to 'utils/'.  
 	- redistribute functionality between main.jsx and app.jsx. Renaming Main.jsx to router.jsx.
+
+### Stage 08
+	- replace 'vite-plugin-console-pro' instead of 'vite-plugin-advanced-console-log';
+	- update .gitignore;
