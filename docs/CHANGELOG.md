@@ -24,19 +24,24 @@
 ### Stage 05
 	- create dev branch.
 	- add changes by next logic: 
-		-> create temp branch
-		-> add  temp branch into dev by new commit 
-		-> auto merge release branch.
+		-> create temp branch;
+		-> add  temp branch into dev by new commit; 
+		-> auto merge release branch;
 
 ### Stage 06
-	- install 'vite-plugin-advanced-console-log'. Simplifies work with index.js files
+	- install 'vite-plugin-advanced-console-log'. Simplifies work with index.js files;
 
 ### Stage 07
-	- add folder ./utils - place here the files needed to build the application depending on the target platform.
-	- add vite-plugin-static-copy - use is used to build the application.
-	- moved app.js to 'utils/'.  
-	- redistribute functionality between main.jsx and app.jsx. Renaming Main.jsx to router.jsx.
+	- add folder ./utils - place here the files needed to build the application depending on the target platform;
+	- add vite-plugin-static-copy - use is used to build the application;
+	- moved app.js to 'utils/';
+	- redistribute functionality between main.jsx and app.jsx. Renaming Main.jsx to router.jsx;
 
 ### Stage 08
 	- replace 'vite-plugin-console-pro' instead of 'vite-plugin-advanced-console-log';
 	- update .gitignore;
+
+### Stage 09
+	- using the Jest Framework to run tests;
+	- install packages: jest @babel/preset-env @babel/preset-react @testing-library/react @testing-library/jest-dom jest-environment-jsdom babel-jest identity-obj-proxy;
+	- project settings: babel.config.cjs and jest.config.cjs; 

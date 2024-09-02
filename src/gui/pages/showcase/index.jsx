@@ -4,9 +4,16 @@
 // of the application in artificial conditions.															 //
 // ========================================================================= //
 
-const ShowcasePage = () => {
+const ShowcasePage = receivedProps => {
+	// initial data
+	const {
+		id,
+		...attributes
+	} = receivedProps;
+		
+	// render
 	return (
-		<section id='test'>
+		<section id={id} {...attributes}>
 			{"Its alive"}
 		</section>
 	);
