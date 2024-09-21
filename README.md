@@ -1,19 +1,20 @@
 
 ## 📝 Brief
 
-This project is a blueprint for the development of actual web applications.
+This project provides the minimum necessary set of technologies to further develop React-based web applications. 
+It is intended to be used as a template for future projects.
 
 ## 🛠️ Developer Tech Stack
 
-Template provides a minimal setup to get React working in Vite with HMR and some ESLint rules. Also included:
-- clsx - for solving most problems involving multiple classes;
-- Prop-Types - runtime type checking for React props and similar objects;
-- React-Aria - library of React Hooks that provides accessible UI primitives for your design system.
+Main modules of the environment:
 - React-Router-Dom - contains bindings for using React Router in web applications;
 - Redux (@reduxjs/toolkit) - make it easy to trace when, where, why, and how your application's state changed;
 - SCSS - implements SASS via node-sass; 
-- Mock Service Worker - for backend emulation;
-- Jest - for testing;
+- Mock Service Worker is used to emulate the execution of requests on the server side;
+- Jest is used to test the performance of a web application;
+
+Support modules (limited use):
+- react-aria - is used to merge property sets correctly (mergeProps);
 
 ## ✨ Features
 
